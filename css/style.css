@@ -57,14 +57,15 @@ h2 {font-size: var(--fs-h2)}
 h3{font-size: var(--fs-h3)}
 
 .section__title {
+    margin-bottom: .25em;
 
 }
 .section__subtitle {
     margin: 0;
     font-size: var(--fs-h3);
 }
-.section__title--into,
-.section__title--about {
+.section__subtitle--intro,
+.section__subtitle--work {
     background: var(--clr-accent);
     font-family: var(--ff-secondary);
 }
